@@ -6,6 +6,8 @@ import RepositoryList from '../components/RepositoryList';
 const Dashboard = () => {
   const { user, logout } = useAuth();
 
+  // If the user is not logged in, redirect to the login page
+
   return (
     <div className="min-h-screen bg-ink text-bone p-8">
       <div className="flex justify-between items-center mb-8">
